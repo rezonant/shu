@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Shu</string>
+    <string name="title_tool_detail">Tool Detail</string>
+    <string name="title_tools">Tools</string>
+    <string name="title_activity_tool_section_list">Shu</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_back_to_sessions">Back to sessions</string>
+    <string name="action_disconnect">Disconnect</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_toggle_hidden_files">Toggle hidden files</string>
+    <string name="action_increase_font">Increase font size</string>
+    <string name="action_decrease_font">Decrease font size</string>
+    <string name="action_toggle_word_wrap">Word wrap</string>
+    <string name="action_toggle_follow">Follow output</string>
+
+    <string name="action_find">Find in output</string>
+    <string name="action_tap_to_add">Tap to add...</string>
+    <string name="action_add_first_session_action">Tap to attach your first action to this session...</string>
+    <string name="action_add_second_session_action">Tap to attach another action to this session...</string>
+    <string name="action_tap_to_search">Tap to search...</string>
+    <string name="action_tap_to_search_attach_above">Tap to search (click Attach above to add)...</string>
+
+    <string name="action_add_first_action">Tap to add your first action...</string>
+    <string name="action_add_second_action">Tap to add another action...</string>
+    <string name="action_add_first_session">Tap to add your first session...</string>
+    <string name="action_add_second_session">Tap to add another session...</string>
+    <string name="action_add_readout">Add Readout</string>
+    <string name="action_run">Run</string>
+    <string name="action_connect">Connect</string>
+    <string name="action_add">Add</string>
+    <string name="action_attach">Attach</string>
+    <string name="action_all_actions">Action Definitions</string>
+    <string name="action_all_connections">All Connections</string>
+    <string name="action_library">Action Library</string>
+    <string name="action_ssh_connections">Manage Connections</string>
+    <string name="title_activity_edit_action">Edit Action</string>
+    <string name="title_activity_execute_action">Execute Action</string>
+    <string name="title_activity_edit_action_argument">Edit Action Argument</string>
+    <string name="title_activity_actions_list">Actions</string>
+    <string name="title_activity_sessions_list">Sessions</string>
+    <string name="title_activity_edit_session">Edit Session</string>
+    <string name="title_activity_sshconnection_list">SSH Connections</string>
+    <string name="title_activity_edit_sshconnection">Edit SSH Connection</string>
+    <string name="fragment_edit_session_name_hint">eg. Prod, Dev, Minecraft</string>
+    <string name="title_activity_session_view">View Session</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="title_activity_command_result">Command Results</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_about_shu">About Shu</string>
+
+</resources>

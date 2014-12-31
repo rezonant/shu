@@ -1,0 +1,115 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="rezonant.shu.ui.viewers.AudioListenerFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="something.mp3"
+            android:id="@+id/title"
+            android:layout_gravity="center_horizontal" />
+
+        <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/seek"
+            android:indeterminate="false" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="5dp">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:id="@+id/playBtn"
+                android:src="@android:drawable/ic_media_play"
+                android:contentDescription="Play" />
+
+            <ImageButton
+                android:layout_width="54dp"
+                android:layout_height="fill_parent"
+                android:id="@+id/repeatBtn"
+                android:src="@android:drawable/stat_notify_sync"
+                android:layout_gravity="center_vertical"
+                android:contentDescription="Repeat" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:id="@+id/muteBtn"
+                android:src="@android:drawable/ic_lock_silent_mode_off"
+                android:layout_gravity="center_vertical"
+                android:contentDescription="Toggle Mute" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="00:02:34 of 00:06:56"
+                    android:id="@+id/progress"
+                    android:layout_gravity="center|right"
+                    android:gravity="right"
+                    android:layout_marginTop="5dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="audio/mpeg"
+                    android:id="@+id/mimetype"
+                    android:layout_gravity="right" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|top"
+            android:layout_marginBottom="30dp"
+            android:layout_marginRight="20dp">
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="sftp://liam@192.168.11.2:22/media/liam/Iomega HDD/Media/Music/Beatles/The Beatles - Something.mp3"
+            android:id="@+id/originalUrl"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:layout_marginTop="0dp"
+            android:maxWidth="500dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="http://localhost:9876/stream/12345"
+            android:id="@+id/httpUrl"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:clickable="false" />
+
+    </LinearLayout>
+
+</FrameLayout>

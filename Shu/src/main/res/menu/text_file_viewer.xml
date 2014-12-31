@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/action_increase_font"
+        android:title="@string/action_increase_font"
+        android:showAsAction="never" />
+    <item android:id="@+id/action_decrease_font"
+        android:title="@string/action_decrease_font"
+        android:showAsAction="never" />
+    <item android:id="@+id/action_find"
+        android:title="@string/action_find"
+        android:showAsAction="never" />
+    <item android:id="@+id/action_refresh"
+        android:title="@string/action_refresh"
+        android:showAsAction="never" />
+</menu>

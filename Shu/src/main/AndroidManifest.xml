@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="rezonant.shu"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <!-- Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- SDK -->
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="19" />
+
+    <!-- Application -->
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".ui.ToolSectionListActivity"
+            android:label="@string/title_activity_tool_section_list" >
+        </activity>
+        <activity
+            android:name=".ui.ToolListActivity"
+            android:label="@string/title_tools" >
+        </activity>
+        <activity
+            android:name=".ui.ToolDetailActivity"
+            android:label="@string/title_tool_detail"
+            android:parentActivityName=".ui.ToolListActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ToolListActivity" />
+        </activity>
+        <activity
+            android:name=".ui.global.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:windowSoftInputMode="adjustResize|stateVisible" >
+        </activity>
+        <activity
+            android:name=".ui.session.ExecuteActionActivity"
+            android:label="@string/title_activity_execute_action"
+            android:windowSoftInputMode="adjustResize|stateVisible" >
+        </activity>
+        <activity
+            android:name=".ui.global.SettingsActivity"
+            android:label="@string/title_activity_settings" >
+        </activity>
+        <activity
+            android:name=".ui.data.EditActionActivity"
+            android:label="@string/title_activity_edit_action" >
+        </activity>
+        <activity
+            android:name=".ui.data.EditSessionActionActivity"
+            android:label="@string/title_activity_edit_action" >
+        </activity>
+        <activity
+            android:name=".ui.data.EditActionArgumentActivity"
+            android:label="@string/title_activity_edit_action_argument" >
+        </activity>
+        <activity
+            android:name=".ui.data.ActionsListActivity"
+            android:label="@string/title_activity_actions_list" >
+        </activity>
+        <activity
+            android:name=".ui.session.SessionsListActivity"
+            android:label="Shu" >
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.data.EditSessionActivity"
+            android:label="@string/title_activity_edit_session" >
+        </activity>
+        <activity
+            android:name=".ui.data.SSHConnectionListActivity"
+            android:label="@string/title_activity_sshconnection_list" >
+        </activity>
+        <activity
+            android:name=".ui.data.EditSSHConnectionActivity"
+            android:label="@string/title_activity_edit_sshconnection" >
+        </activity>
+        <activity
+            android:name=".ui.session.SessionViewActivity"
+            android:label="@string/title_activity_session_view" >
+        </activity>
+        <activity
+            android:name=".ui.session.CommandResultActivity"
+            android:label="@string/title_activity_command_result" >
+        </activity>
+        <activity
+            android:name=".ui.global.AboutShuActivity"
+            android:label="@string/title_activity_about_shu" >
+        </activity>
+    </application>
+
+</manifest>

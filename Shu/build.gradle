@@ -1,0 +1,41 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:0.12.+'
+        classpath 'com.newrelic.agent.android:agent-gradle-plugin:3.+'
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+apply plugin: 'android'
+apply plugin: 'newrelic'
+
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion '19.1.0'
+
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 19
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:19.0.0'
+    compile 'com.j256.ormlite:ormlite-android:4.48'
+    compile 'com.jcraft:jsch:0.1.51'
+    compile files('lib/nanohttpd-2.1.0.jar')
+    compile 'com.newrelic.agent.android:android-agent:3.+'
+    compile files('lib/logentries-android-2.1.2.jar')
+}

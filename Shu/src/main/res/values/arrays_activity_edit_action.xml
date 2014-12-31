@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="activity_edit_action_types">
+        <item>SSH</item>
+        <item>WEBCAM+SFTP</item>
+        <item>WEBCAM+HTTP</item>
+		<item>HTTP</item>
+		<item>TELNET</item>
+		<item>FTP</item>
+		<item>SMB</item>
+		<item>NFS</item>
+		<item>TCP/UDP</item>
+		<item>ARP</item>
+	</string-array>
+	<string-array name="activity_edit_action_argument_types">
+		<item>string</item>
+		<item>int</item>
+		<item>float</item>
+		<item>html</item>
+		<item>json</item>
+		<item>xml</item>
+	</string-array>
+</resources>

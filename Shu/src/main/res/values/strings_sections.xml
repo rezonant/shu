@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="section_system_status">Sessions</string>
+    <string name="section_network_status">Network Status</string>
+    <string name="section_network_tools">Network Tools</string>
+    <string name="section_settings">Settings</string>
+    <string name="section_remote_control">Remote Control</string>
+    <string name="section_about">About</string>
+
+	<string name="section_dashboard">Dashboard</string>
+	<string name="section_actions">Actions</string>
+    <string name="section_start_action">Start Action</string>
+    <string name="section_history">History</string>
+
+	<string name="section_quick_actions">Quick Actions</string>
+	<string name="section_running">Active Tasks</string>
+    <string name="section_monitors">Monitors</string>
+    <string name="section_filesystem">Filesystem</string>
+    <string name="section_webcams">Webcams</string>
+
+
+</resources>
